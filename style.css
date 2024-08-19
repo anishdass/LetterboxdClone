@@ -1,0 +1,37 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.title-block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-block .fa-imdb{
+    font-size: 48px;
+    color: yellow;
+}
+
+.title-block .title{
+    margin: -5px;
+    font-size: 48px;
+}
+
+.welcome-message{
+    font-size: 30px;
+    text-align: center;
+}
+
+.poster-block{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5%;
+}
