@@ -7,19 +7,36 @@ body{
     gap: 50px;
 }
 
-.text-block{
+.description-block{
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: -800px;
 }
 
 .film-name{
-    font-size: 100px;
-    margin-top: -100px;
+    font-size: 60px;
+    margin-bottom: -60px;
+}
+
+.basic-info{
+    display: flex;
+    gap: 10px;
+    max-width: 650px;
+    justify-content: center;
 }
 
 .year{
-    font-size: 25px;
-    margin-top: 42px;
+}
+
+.director{
+    font-style: italic;
+}
+
+.tagline{
+    display: flex;
+    max-width: 650px;
+    justify-content: center;
 }
 
 img{
