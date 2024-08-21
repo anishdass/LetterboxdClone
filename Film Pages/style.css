@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(41, 41, 41);
+}
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -10,20 +13,21 @@ body{
 .description-block{
     display: flex;
     flex-direction: column;
-    margin-left: 600px;
-    margin-top: -800px;
+    margin-left: 550px;
+    margin-top: -770px;
+    max-width: 400px;
 }
 
 .film-name{
-    font-size: 60px;
+    font-weight: 900;
+    font-size: 30px;
     margin-bottom: -60px;
 }
 
 .basic-info{
     display: flex;
     gap: 10px;
-    max-width: 650px;
-    justify-content: center;
+    margin-top: 20px;
 }
 
 .year{
@@ -34,9 +38,6 @@ body{
 }
 
 .tagline{
-    display: flex;
-    max-width: 650px;
-    justify-content: center;
 }
 
 img{
