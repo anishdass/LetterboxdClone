@@ -6,6 +6,9 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .title-block .fa-imdb{
@@ -18,7 +21,30 @@ body{
     font-size: 48px;
 }
 
+.search-box{
+    padding-top: 50px;
+    padding-right: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-box input{
+    background-color: transparent;
+    width: 300px;
+    padding: 1em .3em;
+    border-radius: 35px;
+}
+
+.search-box button{
+    padding: 1em 2em;
+    background-color: yellow;
+    border-radius: 35px;
+}
+
 .welcome-message{
+    padding-top: 70px;
     font-size: 30px;
     text-align: center;
 }
